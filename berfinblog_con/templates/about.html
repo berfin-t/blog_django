@@ -1,0 +1,48 @@
+<!--BASE-->
+{% extends 'partials/_base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+ <!--NAVBAR-->
+ {% include 'partials/_navbar.html' %}
+
+<div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h1 class="h2">01 : About me</h1>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <h3>Education</h3>
+                  <p>Aydın Adnan Menderes University - Computer Engineering </p>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <img src="{% static './assets/images/my_profil.jpg' %}" class="img-responsive" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+       </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     navActivePage();
+  });
+</script>
+<script type="text/javascript" src="{% static './main.70a66962.js' %}"></script></body>
+
+</html>
+
+{% endblock %}

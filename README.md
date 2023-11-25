@@ -10,6 +10,12 @@ This project is a statically running blog site that I created to learn Django. I
 # USAGE 
 
 ```bash
+# Create env
+$ python -m venv env
+
+# Install Django
+$ pip install Django
+
 # Activate env
 $ env\Scripts\activate
 
